@@ -40,4 +40,3 @@ print('\n======= FIM DO CADASTRO =======')
 print(f"""Total de pessoas com mais de 18 anos: {pessoas}
 Ao todo temos {homens} homens cadastrados
 E temos {mulheres} mulheres com menos de 20 anos""")
-

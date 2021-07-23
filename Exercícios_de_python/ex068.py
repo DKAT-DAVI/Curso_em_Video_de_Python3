@@ -23,7 +23,7 @@ while True:
             venceu += 1
         elif escolha in 'ÍíIi':
             print('='*50)
-            print(f'Você jogor {jogador} e o computador jogou {pc}. Total {resultado} = ÍMPAR')
+            print(f'Você jogor {jogador} e o computador jogou {pc}. Total {resultado} = PAR')
             print('='*50)
             print('VOCÊ PERDEU!')
             print('=-'*15)
@@ -37,7 +37,7 @@ while True:
             break
         elif escolha in 'ÍíIi':
             print('='*50)
-            print(f'Você jogor {jogador} e o computador jogou {pc}. Total {resultado} = PAR')
+            print(f'Você jogor {jogador} e o computador jogou {pc}. Total {resultado} = ÍMPAR')
             print('='*50)
             print('VOCÊ GANHOU!')
             venceu += 1
